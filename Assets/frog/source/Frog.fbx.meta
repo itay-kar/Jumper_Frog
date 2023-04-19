@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 69461200802762c408bd84446a9ee156
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: Frog
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Frog|Jump
+      takeName: Frog|Jump
+      internalID: 1123597236940378091
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 4
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Frog(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Frog
+      parentName: Frog(Clone)
+      position: {x: -0, y: -0.090127744, z: -4.896941}
+      rotation: {x: 0.9995593, y: -1.1426935e-16, z: 1.142695e-16, w: 0.029686289}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Bone
+      parentName: Frog
+      position: {x: 1.1335802e-17, y: 0.00026097803, z: -0.050853867}
+      rotation: {x: -0.72177726, y: 4.1027898e-10, z: -6.278171e-10, w: -0.69212544}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: 2.7939677e-11, y: 0.011802231, z: -0.000000002044253}
+      rotation: {x: -0.000000010333294, y: 0.9995835, z: 0.028858539, w: -0.00000043324758}
+      scale: {x: 1.0370499, y: 1.037049, z: 1.0370493}
+    - name: Bone.002
+      parentName: Bone.001
+      position: {x: 7.4505804e-11, y: 0.026110943, z: -2.2992025e-10}
+      rotation: {x: -0.020139188, y: 0.00000050802254, z: -0.0000000028662095, w: -0.99979717}
+      scale: {x: 0.90319407, y: 0.90319383, z: 0.9031942}
+    - name: Bone.002_end
+      parentName: Bone.002
+      position: {x: -0, y: 0.021677947, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.009
+      parentName: Bone.001
+      position: {x: 7.4505804e-11, y: 0.026110943, z: -2.2992025e-10}
+      rotation: {x: 0.48107857, y: 0.46778226, z: 0.53101486, w: -0.5174614}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Bone.011
+      parentName: Bone.009
+      position: {x: -0, y: 0.012950923, z: -2.9802322e-10}
+      rotation: {x: -0.011039585, y: -0.000000074505806, z: -0.00065648556, w: 0.99993885}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000001}
+    - name: Bone.013
+      parentName: Bone.011
+      position: {x: 0.000000002682209, y: 0.011035273, z: 8.9406965e-10}
+      rotation: {x: 0.016789898, y: 0.6855973, z: 0.017818063, w: 0.7275692}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000004}
+    - name: Bone.015
+      parentName: Bone.013
+      position: {x: -0.0000000018626451, y: 0.011679106, z: 5.820766e-10}
+      rotation: {x: -0.06888763, y: 0.33524275, z: -0.1891251, w: -0.9203795}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000002}
+    - name: Bone.015_end
+      parentName: Bone.015
+      position: {x: -0, y: 0.004351868, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.010
+      parentName: Bone.001
+      position: {x: 7.4505804e-11, y: 0.026110943, z: -2.2992025e-10}
+      rotation: {x: -0.48099208, y: 0.46787107, z: 0.530926, w: 0.51755285}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.99999994}
+    - name: Bone.012
+      parentName: Bone.010
+      position: {x: 4.4703483e-10, y: 0.013124718, z: -0.0000000013411044}
+      rotation: {x: -0.011217131, y: 0.0000002533197, z: 0.0006667524, w: 0.99993694}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Bone.014
+      parentName: Bone.012
+      position: {x: -0.0000000020861626, y: 0.011035274, z: 5.9604643e-10}
+      rotation: {x: -0.016790327, y: 0.68559736, z: 0.017817995, w: -0.7275691}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: Bone.016
+      parentName: Bone.014
+      position: {x: -6.891787e-10, y: 0.010772381, z: -0.0000000016484409}
+      rotation: {x: -0.086783685, y: -0.5256855, z: 0.1378376, w: -0.83493966}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000001}
+    - name: Bone.016_end
+      parentName: Bone.016
+      position: {x: -0, y: 0.005256316, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.003
+      parentName: Bone
+      position: {x: -0.000050354505, y: -0.0003830692, z: 0.0018056784}
+      rotation: {x: 0.70084774, y: 0.021329088, z: -0.18219528, w: -0.6893204}
+      scale: {x: 0.99999946, y: 0.99999946, z: 0.9999994}
+    - name: Bone.005
+      parentName: Bone.003
+      position: {x: -3.72529e-10, y: 0.030950718, z: 0.0000000014528632}
+      rotation: {x: 0.005687146, y: 0.6569706, z: -0.11446959, w: 0.7451536}
+      scale: {x: 0.9999992, y: 0.9999992, z: 1}
+    - name: Bone.007
+      parentName: Bone.005
+      position: {x: -0.0000000039022416, y: 0.03151867, z: -0.0000000010849908}
+      rotation: {x: 0.5996083, y: 0.32389197, z: 0.25871396, w: -0.68456626}
+      scale: {x: 1.0000006, y: 1, z: 1.0000004}
+    - name: Bone.007_end
+      parentName: Bone.007
+      position: {x: -0, y: 0.018998321, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.004
+      parentName: Bone
+      position: {x: -0.00005035363, y: -0.00038306724, z: 0.0018056814}
+      rotation: {x: 0.59563994, y: 0.40834364, z: 0.5680835, w: -0.39465132}
+      scale: {x: 0.9999996, y: 0.99999976, z: 0.9999995}
+    - name: Bone.006
+      parentName: Bone.004
+      position: {x: 8.9406965e-10, y: 0.031024167, z: 9.685754e-10}
+      rotation: {x: -0.25389865, y: -0.6370719, z: 0.26944235, w: 0.67607373}
+      scale: {x: 1.0000011, y: 1.0000008, z: 1.0000004}
+    - name: Bone.008
+      parentName: Bone.006
+      position: {x: -0.0000000025937332, y: 0.031518675, z: -8.6613e-10}
+      rotation: {x: 0.000000104308114, y: 0.0000001490116, z: -0.7903439, w: 0.61266345}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000004}
+    - name: Bone.008_end
+      parentName: Bone.008
+      position: {x: -0, y: 0.018998321, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane
+      parentName: Frog(Clone)
+      position: {x: 4.9630837e-23, y: -0.000000037252903, z: -0.00000011269003}
+      rotation: {x: -0.7071068, y: -1.0820745e-23, z: 8.7735335e-25, w: 0.7071067}
+      scale: {x: 100, y: 99.999985, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
